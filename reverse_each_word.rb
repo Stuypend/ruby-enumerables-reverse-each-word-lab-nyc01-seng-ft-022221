@@ -8,4 +8,4 @@ def reverse_each_word(sentence)
 end
 
 reverse = "abcd, abcd abcd, abcd"
-puts reverse.to_a
+puts reverse.split
