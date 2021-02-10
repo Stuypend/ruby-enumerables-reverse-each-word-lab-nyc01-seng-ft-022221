@@ -3,4 +3,4 @@ def reverse_each_word(sentence)
 end
 a = "cruel world"
 array = a.scan(/\w+/)
-puts array
+puts array[1]
