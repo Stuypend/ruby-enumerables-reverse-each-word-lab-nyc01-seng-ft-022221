@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   arr.collect do |e|
     reverse = reverse + "#{e.reverse} "
   end
-  return reverse.chomp
+  return reverse.chomp(" ")
 end
 
 puts reverse_each_word("abcd abcd abcd abcd")
