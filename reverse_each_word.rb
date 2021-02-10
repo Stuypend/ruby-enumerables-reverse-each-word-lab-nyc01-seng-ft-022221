@@ -8,4 +8,4 @@ def reverse_each_word(sentence)
 end
 
 reverse = "abcd, abcd abcd, abcd"
-puts "HAHAHA + #{reverse.scan(/\s/)}"
+puts "HAHAHA + #{reverse.scan(/\S/)}"
