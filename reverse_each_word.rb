@@ -2,9 +2,9 @@ def reverse_each_word(sentence)
   arr = sentence.scan(/\w+/)
   reverse = ""
   arr.collect do |e|
-    reverse = reverse + " #{e.reverse}"
+    reverse = reverse + "#{e.reverse} "
   end
-  return reverse
+  return reverse.chomp
 end
 
 puts reverse_each_word("abcd abcd abcd abcd")
