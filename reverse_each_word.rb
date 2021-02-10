@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  arr = sentence.scan(/" "/)
+  arr = sentence.split
   reverse = ""
   arr.collect do |e|
     reverse = reverse + "#{e.reverse} "
