@@ -7,5 +7,5 @@ def reverse_each_word(sentence)
   return reverse.chomp(" ")
 end
 
-reverse = "abcd, abcd abcd abcd"
+reverse = "abcd, abcd abcd, abcd"
 puts "HAHAHA + #{reverse.scan(/,/)}"
