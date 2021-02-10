@@ -6,6 +6,5 @@ def reverse_each_word(sentence)
   end
   return reverse
 end
-a = "cruel world"
-array = a
-puts array[1]
+
+puts reverse_each_word("abcd abcd abcd abcd")
